@@ -1,0 +1,103 @@
+.wrapper {
+    max-width: 793px;
+    display: block;
+    width: 793px;
+    left: 0px;
+    top:0;
+}
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+    text-align: center;
+    color: #FF8984;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 19px;
+}
+.pseudo-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    text-align: center;
+    color: #FF8984;
+ }
+ .header {
+    background: #4A4F56;
+    width: 793px;
+    height: 82px;
+    left: 0px;
+    top:0;
+ }
+ .form-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+    margin: 0;
+ }
+ .light-color {
+    background: #88839E;
+    color: #FFFFFF;
+ }
+ .darker-color {
+    background: #7A7593;
+    color: #FFFFFF;
+ }
+.main {
+    display: block;
+    width: 793px;
+    height: 425px;
+    left: 0px;
+    top: 0px;
+    background: #3B3F45;
+    padding-top: 20px;
+}
+label {
+    display: block;
+    width: 534px;
+    height: 45px;
+    margin: 0 auto;
+    left: 0;
+}
+.bon-appetit {
+    display: block;
+    margin: 0 auto;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 417px;
+    background: #4A4F56;
+    margin-top: 45px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF8984;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+}
+label:hover {
+    background-color: #625E77;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+.darker-color:hover {
+    text-decoration: line-through;
+}
+.light-color:hover {
+    text-decoration: line-through;
+}
+.darker-color:active {
+    background-color: #FF8984;
+}
+.light-color:active {
+    background-color: #FF8984;
+}
+.darker-color:checked {
+    text-decoration: line-through;
+}
